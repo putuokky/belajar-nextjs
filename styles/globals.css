@@ -18,6 +18,7 @@ a {
   box-sizing: border-box;
 }
 
-.title {
-  color: rebeccapurple;
+.title-not-found {
+  color: darkgray;
+  text-align: center;
 }
