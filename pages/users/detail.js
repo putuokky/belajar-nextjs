@@ -1,4 +1,4 @@
-export default function detail() {
+export default function UserDetail() {
   return (
     <div>
       <p>User Detail Page</p>
