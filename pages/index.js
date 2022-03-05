@@ -1,19 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import Footers from '../components/Footers'
+import Headers from '../components/Headers'
 
 export default function Home() {
   return (
     <>
-      <header>
-        <ul>
-          <li><Link href="/"><a>Home</a></Link></li>
-          <li><Link href="/blog"><a>Blog</a></Link></li>
-          <li><Link href="/users"><a>Users</a></Link></li>
-        </ul>
-      </header>
-      <h1>Welcom Okky Maheswara</h1>
+      <Headers />
+      <h1 className='title'>Welcome Okky Maheswara</h1>
+      <Footers />
     </>
   )
 }
