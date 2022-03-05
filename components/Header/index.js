@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function Headers() {
+export default function Header() {
   return (
     <header>
       <ul>

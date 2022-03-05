@@ -1,12 +1,10 @@
-import Footers from '../components/Footers'
-import Headers from '../components/Headers'
+import Layout from '../components/Layout';
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <>
-      <Headers />
+    <Layout>
       <h1 className='title'>Welcome Okky Maheswara</h1>
-      <Footers />
-    </>
+    </Layout>
   )
 }
